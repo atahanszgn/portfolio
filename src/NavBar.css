@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rebeccapurple;
+    padding:3px 0px
+}
+
+li{
+    background-color: black;
+    color:white;
+    list-style: none;
+    display:inline-block;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding : 7px 17px 7px 17px;
+    margin : 0px 10px 0px 10px;
+    font-size:17px;
+}
+
+
+
+
+.prjs{
+    float: right;
+    margin-right: 52px;
+}
+
+li:hover{
+    background-color: #a723f3;
+    cursor: pointer;
+}

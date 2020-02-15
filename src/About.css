@@ -1,0 +1,67 @@
+.about{
+    background-color: white;
+    padding:70px 0px;
+}
+@media only screen and (max-width: 500px){
+    p{
+        font-size: 12px;
+    }
+    }
+
+@media only screen and (min-width: 500px){
+p{
+    font-size: 20px;
+}
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.aboutText h1,p{
+    color:black;
+}
+
+@media only screen and (max-width: 500px){
+    .myName h1{
+        font-size: 25px;
+        color:black;
+    }
+}
+
+@media only screen and (min-width: 500px){
+.myName h1{
+    font-size: 45px;
+    color:black;
+}
+}
+
+.myName{
+    align-self: center;
+    justify-self: center;
+    margin:25px 40px;
+
+}
+
+.aboutText{
+   text-align: center;
+   margin-bottom: 50px;
+   margin-left : 25px;
+   margin-right: 25px;
+}
+
+.pp{
+    margin:25px 25px;
+    align-self: center;
+    justify-self: center;
+}
+
+.pp>img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+
