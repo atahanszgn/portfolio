@@ -41,7 +41,7 @@ const Projects = () => {
                 <div className="desc">
                     <h1>Robofriends</h1>
                     <p>It's my first app using React!<br />
-                        Fetches information of users from <a href="https://jsonplaceholder.typicode.com/users">here</a>, creates cards with that information and displays them. <br />Filters cards by name with using the given input by user.
+                        Fetches information of users from <a href="https://jsonplaceholder.typicode.com/users" target="_blank">here</a>, creates cards with that information and displays them. <br />Filters cards by name with using the given input by user.
                         Also search box is static. So you can scroll down and still filter the cards!<br/><br/>
                         <a href="http://atahanszgn.github.io/robofriends" target="_blank">Click here to test!</a>
                     </p>
@@ -64,21 +64,22 @@ const Projects = () => {
                     <h1>School Projects</h1>
                     <p>There are other projects of mine on my GitHub page.<br /><br/><br/>
                     Chat Application<br/><br/>
-                    A peer-to-peer chat system written in Python programming language.
-                    <br/><a href="https://github.com/atahanszgn/CMP2204-Chat-Application" target="_blank">https://github.com/atahanszgn/CMP2204-Chat-Application</a><br/><br/><br/>
+                    A peer-to-peer chat system written in Python programming language.<br/>
+                    <br/><a href="https://github.com/atahanszgn/CMP2204-Chat-Application" target="_blank">Link</a><br/><br/><br/>
                     Frequent Word Finder<br/><br/>
-                    Prints the top 10 frequent words from a csv file.Written in C++ programming language.
-                    <br/><a href="https://github.com/atahanszgn/CMP2003-frequentWords" target="_blank">https://github.com/atahanszgn/CMP2003-frequentWords</a><br/><br/><br/>
+                    Prints the top 10 frequent words from a csv file.Written in C++ programming language.<br/>
+                    <br/><a href="https://github.com/atahanszgn/CMP2003-frequentWords" target="_blank">Link</a><br/><br/><br/>
                     Maze Game<br/><br/>
-                    A command prompt game written in C++ programming language.
-                    <br/><a href="https://github.com/atahanszgn/CMP1001-Maze-Game" target="_blank">https://github.com/atahanszgn/CMP1001-Maze-Game</a>
+                    A command prompt game written in C++ programming language.<br/>
+                    <br/><a href="https://github.com/atahanszgn/CMP1001-Maze-Game" target="_blank">Link</a>
                     </p>
                 </div>
 
 
 
             </div>
-        <br/>
+        <br/><br/>
+        <p>Made with React</p>
 
 
         </div>
