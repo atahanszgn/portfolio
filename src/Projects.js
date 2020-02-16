@@ -20,15 +20,15 @@ const Projects = () => {
 
                 <div className="screenshots">
                     <div className="dbss">
-                        <img src='https://lh3.googleusercontent.com/AsrO3rUP-4jFOjxVXBiI81hQoaGRtC_2RR2kNjWUqGLIaDdQVaUJewTpi31v3G6gIA=w2560-h1122-rw' alt="ss1"></img>
+                        <img src={require("./dbss1.png")} alt="ss1"></img>
                     </div>
 
                     <div className="dbss">
-                        <img src='https://lh3.googleusercontent.com/uzZQMLpSemv1nBHKztb6LwffzUSGeBN7wwDxNyVtUv3F1pJslftmkn0pBVJQMOVAiaw=w2560-h1122-rw' alt="ss2"></img>
+                        <img src={require("./dbss2.png")} alt="ss2"></img>
                     </div>
 
                     <div className="dbss">
-                        <img src='https://lh3.googleusercontent.com/1GS0539mDNhJSXg5znxMjM075nKmj8kp1j3_jWvoJeC77ujL5PpmaZWgBx8qUqAJ11Cw=w2560-h1122-rw' alt="ss3"></img>
+                        <img src={require("./dbss3.png")} alt="ss3"></img>
                     </div>
                 </div>
 
