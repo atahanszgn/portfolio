@@ -7,7 +7,7 @@ const NavBar = () => {
         <div className='navbar'>
             <div className='buttons'>
                 <ul>
-                    <a href="https://github.com/atahanszgn" target="_blank"><li className="git">GitHub</li></a>
+                    <a href="https://github.com/atahanszgn" target="_blank" rel="noopener noreferrer"><li className="git">GitHub</li></a>
                     <Link
                         activeClass="active"
                         to="projectsSection"
@@ -19,7 +19,6 @@ const NavBar = () => {
                 </ul>
             </div>
         </div>
-
     );
 }
 
